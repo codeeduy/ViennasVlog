@@ -195,7 +195,24 @@ body {
 
 .hover-1:is(:hover, :focus-visible) {
 
-  color: var(--text-)
+  color: var(--text-wild-blue-yonder);
+
+  transform: translateX(3px);
+}
+
+.hover-2:is(:hover, :focus-visible) {
+
+  color: var(--text-carolina-blue);
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-card .profile-banner {
+  border-radius: var(--radius-circle);
 }
 
 /*-----------------------------------*\
